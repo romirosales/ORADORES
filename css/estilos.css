@@ -1,0 +1,132 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* inicio header */
+.principal {
+    height: 70px;
+    background: #535864;
+}
+
+.logo {
+    width: 30%;
+}
+
+.logo h2 {
+    font-size: 16px;
+    color: white;
+}
+
+.logo img {
+    width: 30%;
+    height: 70%;
+}
+
+.principal-ul {
+    height: 100%;
+    width: 70%;
+    gap: 15px;
+    justify-content: end;
+}
+
+.principal-ul li {
+    list-style: none;
+    display: flex;
+    align-items: center;
+}
+
+.principal-ul li a {
+    text-decoration: none;
+    color: white;
+    font-size: 13px;
+}
+
+.principal-ul li .comprar {
+    color: rgb(17, 231, 17)
+}
+
+/* final header */
+
+/* comienzo section1 */
+.section1 {
+    position: relative;
+    height: 600px;
+    background-image: url("../img/hawaii.jpg");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+
+.section1::before {
+    height: 100%;
+    width: 100%;
+    content: "";
+    background-color: #0000003f;
+    position: absolute;
+
+}
+
+.section1 .imagen1 {
+    width: 30%;
+    position: absolute;
+    right: 0;
+    color: white;
+    z-index: 10;
+    top: 25%;
+}
+
+.section1 .imagen1 p {
+    bottom: 0;
+
+}
+
+/* final section1 */
+
+/* comienzo section2 */
+
+
+
+
+/*comienzo section3*/
+
+
+.imagen3 img {
+    width: 100%;
+    height: 100%;
+
+}
+.contacto-apellido{
+width: 99%;
+}
+
+.contacto-nombre{
+width: 99%;
+}
+.contacto-texto {
+    width: 100%;
+    margin-right: 10px;
+}
+
+.boton-final {
+    background-color: rgb(74, 228, 74);
+}
+
+/*comienzo footer*/
+.section4 {
+    background-color: #1C3F52;
+    height: 75px;
+    
+}
+.section4 nav ul li a{
+    text-decoration: none;
+    color: white;
+}
+.section4 nav ul li {
+    
+list-style: none;
+justify-content: center;
+align-items: center;
+display:flex;
+}
